@@ -1,40 +1,85 @@
-<div class="jumbotron">
-     <h1 class="title">18K Offer</h1>
-     <p class="slogan">18K Offer 是一个提供18K薪水工作机会的求职网站。
-     <br>
-     我们希望藉由这个网站，能让大家找到且应征上高薪且优质的工作。
-     <br>
-      凭借自己的努力和天份也会变 Winner
-     </p>
-     <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
-</div>
-<section id="company">
-  <div class = "container-fluid">
-    <div class="row">
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-43-31.png" alt="search" class = "img-thumbnail">
-          <div class="caption">
-            <h3>北京朝阳建外SOHO</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-43-48.png" alt="bid" class = "img-thumbnail">
-          <div class="caption">
-            <h3>info@18koffer.com</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-Screenshot%20at%20Apr%2015%2021-44-00.png" alt="heart" class = "img-thumbnail">
-          <div class="caption">
-            <h3>010-12344321</h3>
-          </div>
-        </div>
+<div class="col-md-12">
+    <div class="row box">
+      <div class="box-inner col-md-6 col-md-offset-3">
+        <h1 class="title">寻找优秀的同行者</h1>
+        <p class="slogan">如果您有梦想、热情、积极向上又希望在私教工作室工作
+          <br>
+          你的每一分努力，都值得回报。
+          <br>
+          凭借自己的努力和天份也会变 Winner
+          <br>
+          想成为引力大家庭一员吗？
+        </p>
+        <p class="lead">
+          <%= link_to '马上应征', jobs_path, class: 'btn btn-danger' %>
+        </p>
       </div>
     </div>
   </div>
-</section>
+      <div class="content-section-a">
+         <div class="container">
+           <div class="row">
+             <div class="col-lg-5 col-sm-6">
+               <hr class="section-heading-spacer">
+               <div class="clearfix"></div>
+               <h2 class="section-heading">Gravity Group Strength</h2>
+               <p class="lead">引力团体课程人数为5-8人，在激情的音乐氛围里，通过45-60分钟的肌肉塑形和耐力减脂训练来满足同一课程中每个人个性化的需求，并将独特的核心训练，拉伸放松练习巧妙的与课程结合在一起。
+
+引力团体完全在引力设备上达到全身锻炼的效果，同时没有任何复杂的技术需要特别注意。
+
+引力团体的特点：有趣、有效、有社交。将大量传统健身房完成的训练内容浓缩在一节课程里，在伙伴的陪同下，共同快乐的完成这节引力团体课程。</p>
+             </div>
+             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+               <%= image_tag 'pic-1.jpg', class: 'img-responsive' %>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="content-section-b">
+         <div class="container">
+           <div class="row">
+             <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+               <hr class="section-heading-spacer">
+               <div class="clearfix"></div>
+               <h2 class="section-heading">Gravity Post Rehab & personal trainning</h2>
+               <p class="lead">引力康复训练模式为私人教练、物理治疗师提供了一套内容完整、综合性强的康复后期解决方案，重点放在了改善膝关节、腰椎和肩颈关节的活动度，通过持续有效的训练方式最终达到完全康复的目标。 引力私教是将引力设备与多种训练方式合理搭配的训练模式，它为客户提供安全高效的一对一，一对多的私教训练。这种训练方式可在一台引力设备上完成一套由稳定性、力量和爆发力练习所组成的完整训练计划。引力教练可根据客户的实际需求设计出一套有针对性、省时高效的训练计划来帮助客户达到预定目标。</p>
+             </div>
+             <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+               <%= image_tag 'pic-2.jpg', class: 'img-responsive' %>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="content-section-a">
+         <div class="container">
+           <div class="row">
+             <div class="col-lg-5 col-sm-6">
+               <hr class="section-heading-spacer">
+               <div class="clearfix"></div>
+               <h2 class="section-heading"><br>Gravity Pilates </h2>
+               <p class="lead">引力普拉提是一个静态类型的训练课程，将传统垫上普拉提与普拉提床合二为一在引力设备上进行训练，充分挑战核心力量、动态稳定性以及协调性。引力普拉提在围绕着普拉提核心训练原则的同时更融入了运动生物力学的元素让每位参与者都能在准确无误的指导下得到最佳锻炼效果。</p>
+             </div>
+             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+               <%= image_tag 'pic-3.jpg', class: 'img-responsive' %>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="content-section-a">
+         <div class="container">
+           <div class="row">
+             <div class="col-lg-5 col-sm-6">
+               <hr class="section-heading-spacer">
+               <div class="clearfix"></div>
+               <h2 class="section-heading"><br>引力大家庭</h2>
+               <p class="lead">about us<a target="_blank" href="https://liaoxh1981-blog.logdown.com/posts/1748904/">全国引力工作室名录</a></p>
+             </div>
+             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+               <%= image_tag 'pic-4.jpg', class: 'img-responsive' %>
+             </div>
+           </div>
+         </div>
+       </div>
