@@ -1,14 +1,17 @@
 <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-bottom: 20px;">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div <a class="navbar-brand" href="/">Total Gym Family</i></a>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Total Gym Family Offer</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+
                 <li>
                   <% if !current_user %>
+                    <li><a href="#"  data-target=blank" href="https://liaoxh1981-blog.logdown.com/posts/1748904/">关于我们</a></li>
                   <li><a href="#" data-toggle="modal" data-target="#signup-modal">注册</a></li>
                   <li><a href="#" data-toggle="modal" data-target="#login-modal">登录</a></li>
                 <% else %>
@@ -32,6 +35,7 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+
 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
   <div class="modal-dialog" role="document">
     <div class="loginmodal-container">
